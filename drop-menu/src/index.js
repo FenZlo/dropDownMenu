@@ -1,13 +1,10 @@
 import "./index.css";
 
-let menuElem = document.querySelector('.menu');
-let buttonElem = document.querySelector('.menu__trigger');
 
-function buttonHendler () {
-  menuElem.classList.toggle('open');
-  console.log(menuElem)
 
+function buttonHendler (e) {
+  //Навешать обработчик клика на элементы по найденному селектору.
 }
 
 
-buttonElem.addEventListener('click', buttonHendler);
+document.querySelectorAll(".menu_section").forEach(node => buttonHendler(node));

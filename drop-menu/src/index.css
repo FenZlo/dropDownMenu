@@ -14,6 +14,6 @@
   display: none;
 }
 
-.menu.open.menu__list {
+.menu.open .menu__list {
   display: block;
 }
