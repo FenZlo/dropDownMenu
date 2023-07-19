@@ -1,0 +1,19 @@
+.menu__trigger {
+  width: 80px;
+  background-color: pink;
+  border: none;
+  border-radius: 10px;
+}
+
+.menu__list {
+  list-style-type: none;
+  width: 80px;
+  padding-left: 0;
+  text-align: center;
+  margin-top: 2px;
+  display: none;
+}
+
+.menu.open .menu__list {
+  display: block;
+}
